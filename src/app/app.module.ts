@@ -8,6 +8,7 @@ import { AppRouterMoudle } from './app.routing';
 import { SharedModule } from './shared/shared.module';
 // import { AboutusModule } from './aboutus/aboutus.module';
 import { ContactusModule } from './contactus/contactus.module';
+import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ContactusModule } from './contactus/contactus.module';
     AppRouterMoudle,
     SharedModule, // no lazyloadmodule here
     ContactusModule,
+    SlimLoadingBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

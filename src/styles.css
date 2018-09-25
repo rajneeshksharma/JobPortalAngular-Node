@@ -5,5 +5,4 @@
 @import "assets/css/main.css";
 @import "assets/css/responsive.css";
 @import "assets/css/colors/red.css";
-
-
+@import "../node_modules/ng2-slim-loading-bar/style.css";
